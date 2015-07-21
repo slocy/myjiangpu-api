@@ -8,6 +8,9 @@ var bodyParser = require('body-parser');
 var app = express();
 
 var index = require('./route/index');
+var artisan = require('./route/artisan');
+var auth = require('./route/auth');
+var book = require('./route/book');
 var sharing = require('./route/sharing');
 
 app.use(logger('dev'));
@@ -17,6 +20,9 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
+app.use('/artisan', artisan);
+app.use('/auth', auth);
+app.use('/book', book);
 app.use('/sharing', sharing);
 
 var server = app.listen(3000, function () {
@@ -25,7 +31,6 @@ var server = app.listen(3000, function () {
 
   console.log('Example app listening at http://%s:%s', host, port);
 });
-
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
