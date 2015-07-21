@@ -8,6 +8,7 @@ var bodyParser = require('body-parser');
 var app = express();
 
 var index = require('./route/index');
+var sharing = require('./route/sharing');
 
 app.use(logger('dev'));
 app.use(bodyParser.json());
@@ -16,11 +17,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-
-/*app.get('/', function (req, res) {
-
-  res.send('Hello World!');
-});*/
+app.use('/sharing', sharing);
 
 var server = app.listen(3000, function () {
   var host = server.address().address;
