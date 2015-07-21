@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 
 var app = express();
 
-var index = require('./routes/index');
+var index = require('./route/index');
 
 app.use(logger('dev'));
 app.use(bodyParser.json());
