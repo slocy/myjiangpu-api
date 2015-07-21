@@ -1,9 +1,15 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
 router.get('/', function(req, res, next) {
-	var t = {id:1, name:'Kris'}
+	var t = {id:1, name:'Kris'};
+	
+	res.send(t);
+});
+
+router.post('/', function(req, res, next) {
+	var t = {id:1, name:'Post'};
+
 	res.send(t);
 });
 
