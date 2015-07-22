@@ -13,13 +13,14 @@ var sharing = require('./route/sharing');
 
 var artisan = require('./route/artisan');
 var book = require('./route/book');
-var book = require('./route/bookSteps');
-var book = require('./route/bookStuffs');
-var book = require('./route/customer');
-var book = require('./route/lesson');
-var book = require('./route/order');
-var book = require('./route/payment');
-var book = require('./route/utility');
+var bookSteps = require('./route/bookSteps');
+var bookStuffs = require('./route/bookStuffs');
+var customer = require('./route/customer');
+var lesson = require('./route/lesson');
+var order = require('./route/order');
+var payment = require('./route/payment');
+var utility = require('./route/utility');
+var try = require('./route/try');
 
 app.use(logger('dev'));
 app.use(bodyParser.json());
@@ -40,7 +41,7 @@ app.use('/lesson', lesson);
 app.use('/order', order);
 app.use('/payment', payment);
 app.use('/utility', utility);
-
+app.use('/try', try);
 
 var server = app.listen(3000, function () {
   var host = server.address().address;
