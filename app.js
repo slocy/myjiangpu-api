@@ -20,7 +20,7 @@ var lesson = require('./route/lesson');
 var order = require('./route/order');
 var payment = require('./route/payment');
 var utility = require('./route/utility');
-var try = require('./route/try');
+var atry = require('./route/atry');
 
 app.use(logger('dev'));
 app.use(bodyParser.json());
@@ -42,7 +42,7 @@ app.use('/lesson', lesson);
 app.use('/order', order);
 app.use('/payment', payment);
 app.use('/utility', utility);
-app.use('/try', try);
+app.use('/atry', atry);
 
 var server = app.listen(3000, function () {
   var host = server.address().address;
