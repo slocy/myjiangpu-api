@@ -1,0 +1,1108 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"book",
+				"bookId"
+			],
+			[
+				"pay",
+				"paymentId"
+			],
+			[
+				"stu",
+				"stuffId"
+			],
+			[
+				"u",
+				"utilityId"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"map",
+				"mapGeoCoord"
+			],
+			[
+				"im",
+				"image"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"fal",
+				"float"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"paddi",
+				"padding-right"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/kisflying/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 628,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/kisflying/Library/Mobile Documents/com~apple~CloudDocs/dcouments/droppad.txt",
+			"settings":
+			{
+				"buffer_size": 562,
+				"line_ending": "Windows",
+				"name": "net use z: \\\\192.168.10.101\\online-log-backup"
+			}
+		},
+		{
+			"file": "/Users/kisflying/Library/Mobile Documents/com~apple~CloudDocs/profiles/chrome.css.mac.ext/Custom-Mac.css",
+			"settings":
+			{
+				"buffer_size": 11391,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/kisflying/.ssh/config",
+			"settings":
+			{
+				"buffer_size": 347,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/kisflying/.ssh/known_hosts",
+			"settings":
+			{
+				"buffer_size": 17379,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 2154,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "db_model.js",
+			"settings":
+			{
+				"buffer_size": 1801,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/mgdb.js",
+			"settings":
+			{
+				"buffer_size": 27,
+				"line_ending": "Windows",
+				"name": "function mgdb(){"
+			}
+		},
+		{
+			"file": "/Users/kisflying/Desktop/untitled.html",
+			"settings":
+			{
+				"buffer_size": 615,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/functions.js",
+			"settings":
+			{
+				"buffer_size": 197,
+				"line_ending": "Windows",
+				"name": "function guid(){"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 16,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "route/sharing.js",
+			"settings":
+			{
+				"buffer_size": 186,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "route/index.js",
+			"settings":
+			{
+				"buffer_size": 471,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/kisflying/Projects/nodexpress.eipiai.com.svn/routes/api.js",
+			"settings":
+			{
+				"buffer_size": 944,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 594,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 132.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/kisflying/Projects/myjiangpuapi.git",
+		"/Users/kisflying/Projects/myjiangpuapi.git/lib"
+	],
+	"file_history":
+	[
+		"/Users/kisflying/Projects/nodexpress.eipiai.com.svn/app.js",
+		"/Users/kisflying/Projects/nodexpress.eipiai.com.svn/package.json",
+		"/Users/kisflying/Projects/jiangbook-demo.git/stuff.html",
+		"/Users/kisflying/Projects/jiangbook-demo.git/css/demo.css",
+		"/Users/kisflying/Projects/jiangbook-demo.git/artisan.html",
+		"/Users/kisflying/Projects/jiangbook-demo.git/index.html",
+		"/Users/kisflying/Projects/nodexpress.eipiai.com.svn/views/api.ejs",
+		"/Users/kisflying/Projects/nodexpress.eipiai.com.svn/views/error.ejs",
+		"/Users/kisflying/Projects/myjiangpuapi.git/database/1.table.sql",
+		"/Users/kisflying/Projects/slocy-web/wp-content/plugins/woocommerce/templates/content-product.php",
+		"/Users/kisflying/Projects/slocy-web/wp-includes/media.php",
+		"/Users/kisflying/Projects/slocy-web/wp-includes/post-thumbnail-template.php",
+		"/Users/kisflying/Projects/slocy-web/wp-includes/query.php",
+		"/Users/kisflying/Projects/slocy-web/wp-content/plugins/jetpack/class.jetpack-debugger.php",
+		"/Users/kisflying/Projects/slocy-web/wp-admin/includes/plugin.php",
+		"/Users/kisflying/Projects/slocy-web/wp-admin/includes/menu.php",
+		"/Users/kisflying/Projects/slocy-web/wp-content/themes/topshop/header.php",
+		"/Users/kisflying/Projects/slocy-web/wp-content/themes/topshop/footer.php",
+		"/Users/kisflying/Desktop/editor.css",
+		"/Users/kisflying/Projects/slocy-web/wp-content/themes/topshop/blogs.php",
+		"/Users/kisflying/Projects/slocy-web/wp-content/themes/topshop/index.php",
+		"/Users/kisflying/Projects/slocy-web/wp-content/plugins/woocommerce/templates/loop/result-count.php",
+		"/Users/kisflying/Projects/slocy-web/wp-content/plugins/woocommerce/templates/loop/orderby.php",
+		"/Users/kisflying/Projects/slocy-web/wp-content/plugins/woocommerce/templates/archive-product.php",
+		"/Users/kisflying/Projects/slocy-web/wp-content/themes/topshop/templates/css/topshop-woocommerce-style.css",
+		"/Users/kisflying/Projects/slocy-web/wp-content/plugins/force-ssl-url-scheme.php",
+		"/Users/kisflying/Projects/slocy-web/wp-content/themes/topshop/archive.php",
+		"/Users/kisflying/Downloads/cv.html",
+		"/Users/kisflying/Projects/www.yishuxia.com.svn/current/index.html",
+		"/Users/kisflying/Projects/confucius.boniw.com.svn/current/data/points.js",
+		"/Users/kisflying/Projects/slocy-web/wp-content/themes/topshop/page.php",
+		"/Users/kisflying/Projects/confucius.boniw.com.svn/current/js/map.js",
+		"/Users/kisflying/Projects/confucius.boniw.com.svn/current/css/map.css",
+		"/Users/kisflying/Projects/confucius.boniw.com.svn/current/index.html",
+		"/Users/kisflying/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/kisflying/.ssh/config",
+		"/Users/kisflying/slocy-aws.pem",
+		"/Users/kisflying/Downloads/slocy-aws.pem",
+		"/Users/kisflying/Projects/nodexpress.eipiai.com.svn/routes/api.js",
+		"/Users/kisflying/Projects/nodexpress.eipiai.com.svn/nodexpress.sublime-project",
+		"/Users/kisflying/Projects/nodexpress.eipiai.com.svn/nodexpress.sublime-workspace",
+		"/Users/kisflying/Projects/confucius.boniw.com.svn/current/js/mapData.js",
+		"/Users/kisflying/Projects/confucius.boniw.com.svn/current/js/mapGeoCoord.js",
+		"/Users/kisflying/Projects/confucius.boniw.com.svn/current/data/data.js",
+		"/Users/kisflying/Projects/confucius.boniw.com.svn/current/pages/test.html",
+		"/Users/kisflying/Projects/confucius.boniw.com.svn/current/css/page.css",
+		"/Users/kisflying/Projects/confucius.boniw.com.svn/current/js/chart/map.js",
+		"/Users/kisflying/Downloads/Data.sql",
+		"/Users/kisflying/Dropbox/Profiles/chrome.css.mac.ext/Custom-Mac.css",
+		"/Users/kisflying/Downloads/cn.html",
+		"/Users/kisflying/Downloads/results.txt",
+		"/Users/kisflying/Desktop/untitled.xml",
+		"/Users/kisflying/Downloads/proxy.pac",
+		"/Users/kisflying/Downloads/address_biz.csv",
+		"/Users/kisflying/Desktop/bookmarks_11_20_14.html",
+		"/Users/kisflying/Desktop/正在处理文件: T:\\Projects\\new.65daigou.com.svn\\Product\\B",
+		"/Users/kisflying/Downloads/untitled.xml",
+		"/Users/kisflying/Downloads/MobileWebService.asmx.xml",
+		"/Users/kisflying/Downloads/MobileWebService.asmx",
+		"/Users/kisflying/Downloads/兼职统计 (2).sql",
+		"/Users/kisflying/Downloads/Multiple-Upload-Samples/multiple-device-upload-ios.deviceids",
+		"/Users/kisflying/Downloads/m3u8.m3u",
+		"/Library/WebServer/Documents/index.html.en",
+		"/Users/kisflying/Downloads/2554057816aaf6c.torrent",
+		"/Users/kisflying/Desktop/list.txt",
+		"/Users/kisflying/Desktop/testlist.txt",
+		"/Users/kisflying/Downloads/GoAgentXRules.gxbundle/Contents/Info.plist",
+		"/Users/kisflying/Downloads/GoAgentXRules.gxbundle/Contents/Resources/ArchivedRules",
+		"/Users/kisflying/Downloads/0809.txt",
+		"/Users/kisflying/Downloads/home.html",
+		"/Users/kisflying/Projects/pnode/node_modules/jade/node_modules/constantinople/node_modules/uglify-js/node_modules/source-map/test/source-map/test-source-map-generator.js",
+		"/Users/kisflying/Projects/pnode/node_modules/mongodb/lib/mongodb/connection/connection_utils.js",
+		"/Users/kisflying/Projects/pnode/node_modules/jade/component.json",
+		"/Users/kisflying/Projects/pnode/package.json",
+		"/Users/kisflying/Projects/pnode/node_modules/node-inspector/node_modules/glob/test/pause-resume.js",
+		"/Users/kisflying/Projects/pnode/node_modules/node-inspector/front-end/panelEnablerView.css",
+		"/Users/kisflying/Projects/pnode/node_modules/jade/node_modules/mkdirp/test/perm.js",
+		"/Users/kisflying/Desktop/dr-356-07-15.txt",
+		"/Users/kisflying/Downloads/bo20/Logs/Logger.txt20140701-15",
+		"/Users/kisflying/Downloads/bo20/Logs/Logger.txt20140709-22",
+		"/Users/kisflying/Downloads/bo20/Logs/Logger.txt20140710-11",
+		"/Users/kisflying/Downloads/www.65daigou.com.certificate.request.csr",
+		"/Users/kisflying/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/kisflying/Projects/echarts.git/index.html",
+		"/Users/kisflying/Downloads/xsvr.rdp",
+		"/Users/kisflying/Desktop/Microsoft Remote Desktop Profiles/Ethenet - VM - Website.rdp",
+		"/Users/kisflying/Downloads/nopCommerce_3.30_Source/Libraries/Nop.Services/Customers/CustomerAttributeService.cs",
+		"/Users/kisflying/Downloads/Insert 2.sql",
+		"/Users/kisflying/Downloads/bizmail_import_sample.csv",
+		"/Users/kisflying/Downloads/cao/bo11/Logs/Logger.txt20140528-22",
+		"/Users/kisflying/Downloads/cao/bo11/Logs/Logger.txt20140518-02",
+		"/Users/kisflying/Downloads/cao/bo11/Logs/Logger.txt20140629-14",
+		"/Users/kisflying/Downloads/cao/bo11/Logs/Logger.txt20140601-21",
+		"/Users/kisflying/Downloads/cao/bo11/Logs/Logger.txt20140621-14",
+		"/Users/kisflying/Downloads/cao/bo11/Logs/Logger.txt20140629-09",
+		"/Users/kisflying/Downloads/cao/cryptobegging.ps",
+		"/Users/kisflying/Downloads/cao/14/Views/Home/JinquanTest.cshtml",
+		"/Users/kisflying/Downloads/Dashboard.jspa",
+		"/Users/kisflying/Downloads/_Layout.cshtml",
+		"/Users/kisflying/Projects/xb-map.plg/map-home.html",
+		"/Users/kisflying/Library/Application Support/Google/Chrome/Default/Extensions/dohbiijnjeiejifbgfdhfknogknkglio/1.1.1_0/manifest.json",
+		"/Users/kisflying/Library/Application Support/Google/Chrome/Default/Extensions/dohbiijnjeiejifbgfdhfknogknkglio/1.1.1_0/undirect.js",
+		"/Users/kisflying/Downloads/sofmap@sis001@0728-yrh008.torrent",
+		"/Users/kisflying/Projects/pnode/npm-debug.log",
+		"/Users/kisflying/Projects/xnode.plg/mongodb.js",
+		"/Users/kisflying/Projects/pnode/views/stat.jade",
+		"/Users/kisflying/Projects/pnode/routes/stat.js",
+		"/Users/kisflying/Projects/know/npm-debug.log",
+		"/Users/kisflying/Projects/know/app.js",
+		"/Users/kisflying/Projects/xnode/app.js",
+		"/Users/kisflying/Projects/xnode/package.json",
+		"/Users/kisflying/Projects/xnode/routes/index.js",
+		"/Users/kisflying/Projects/express.js.plg/package.json",
+		"/Users/kisflying/Projects/express.js.plg/app.js",
+		"/Users/kisflying/Projects/xnode.git/mongodb.js",
+		"/Users/kisflying/Projects/xnode.git/app.js",
+		"/Users/kisflying/Dropbox/Profiles/chrome.css.mac.ext/manifest.json",
+		"/Users/kisflying/Projects/xnode.git/pilot.js",
+		"/Users/kisflying/Dropbox/Profiles/chrome.css.mac.ext/ext.core.js",
+		"/private/etc/hosts copy",
+		"/Users/kisflying/Projects/xnode.git/README.md",
+		"/Users/kisflying/Dropbox/Profiles/chrome.css.mac.ext/jquery.1.7.2.js",
+		"/Users/kisflying/Library/Application Support/Chromium/Default/Extensions/ccenmflbeofaceccfhhggbagkblihpoh/2.1_0/manifest.json",
+		"/Users/kisflying/Library/Application Support/Chromium/Default/Extensions/ccenmflbeofaceccfhhggbagkblihpoh/2.1_0/RemoveGoogleRedirects.js",
+		"/Users/kisflying/Library/Application Support/Chromium/Default/Extensions/pioclpoplcdbaefihamjohnefbikjilc/6.1.3_0/js/SimsearchCache.js",
+		"/Users/kisflying/Library/Application Support/Chromium/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.1_0/craw_window.js",
+		"/Users/kisflying/Library/Application Support/Chromium/Default/Extensions/immpkjjlgappgfkkfieppnmlhakdmaab/0.9.8.9_0/js/app_bg.js",
+		"/Users/kisflying/Library/Application Support/Chromium/Default/Extensions/enlfhbajbedlfodgncjfpplkcknkpbmb/1.0_0/js/popup.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<open folders>",
+			"<open folders",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"4c5",
+			"stuff-title",
+			"stuff-artisan",
+			"buy",
+			"bu'y",
+			"header",
+			"stuff-more",
+			"artisan-desc",
+			"{\n",
+			"a.checkout-button:hover",
+			".woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover",
+			".woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover,",
+			".woocommerce .content-no-sidebar ul.products li.product, .woocommerce-page .content-no-sidebar ul.products li.product",
+			".woocommerce .content-no-sidebar ul.products li.product, .woocommerce-page .content-no-sidebar ul.products li.product ",
+			".entry-content",
+			".entry-content * ",
+			".woocommerce-result-count",
+			"slocy-aboutus-team-li",
+			"You do not have sufficient permissions to access this page",
+			"You do not have sufficient permissions to access this page.",
+			"first",
+			"related",
+			"onsale",
+			"issale",
+			"first",
+			"load_template",
+			"wc_get_template_part",
+			"first",
+			".woocommerce-page ul.products li.product",
+			"ul.products li.product, .woocommerce-page ul.products li.product",
+			"ul.products li.product, .woocommerce-page ul.products li.product ",
+			".woocommerce-page ul.products li.product",
+			"page-title",
+			"page-header",
+			".woocommerce-error:before",
+			"woocommerce-result-count",
+			"woocommerce-ordering",
+			"woocommerce_show_page_title",
+			"woocommerce_before_shop_loop",
+			"woocommerce_before_main_content",
+			"page-title",
+			"woocommerce-result-count",
+			"orderby",
+			"woocommerce-ordering",
+			"woocommerce-result-count",
+			"page-title",
+			"woocommerce-ordering",
+			"page-title",
+			"woocommerce-result-count",
+			"woocommerce-ordering",
+			"{\n",
+			"xxxxx",
+			"x'x'x'x'x",
+			"俄罗斯 布里亚特国立大学孔子学院",
+			"巴西：米纳斯•吉拉斯联邦大学孔子学院",
+			"圣彼得堡大学孔子学院  ",
+			"泰国：宋卡王子大学普吉孔子学院",
+			"德国 哥廷根大学孔子学院",
+			"美国：芝加哥孔子学院",
+			"昭帕亚皇家师范大学孔子学院",
+			"泰国：曼松德•昭帕亚皇家师范大学孔子学院",
+			"美国：密歇根州立大学孔子学院",
+			"美国  匹兹堡孔子学院",
+			"16.美国：丹佛社区大学孔子学院",
+			"白俄罗斯：白俄罗斯国立技术大学科技孔子学院",
+			"白俄罗斯：白俄罗斯国立大学共和国孔子学院",
+			"韩国：仁川大学孔子学院",
+			"美国：阿拉斯加大学安克雷齐分校孔子学院",
+			"奥地利：格拉茨大学孔子学院",
+			"阿尔巴尼亚：地拉那大学孔子学院",
+			"澳大利亚：墨尔本大学孔子学院",
+			"xxxxxxxxxxxxxx\"",
+			"xxxxxxxxxxxxxx",
+			"xxxx",
+			"\"image/items/xxxxxxxx.jpg\",",
+			"xxxxxxxx",
+			"英国：伦敦大学金史密斯舞蹈与表演孔子学院1",
+			"俄罗斯明斯克",
+			"白俄罗斯明斯克",
+			"白俄罗斯明斯克国立语言",
+			"布鲁塞尔孔子学院",
+			"德国哥廷根大学孔子学院",
+			"开罗大学",
+			"保加利亚大特尔诺沃大学孔子学院",
+			"马德里孔子学院",
+			"乌克兰：马德里孔子学院",
+			"丹麦：奥尔堡大学“创新学习”孔子学院",
+			"韩国又石大学孔子学院于2009年1月17日与国家汉办签署合作协议，并于2009年6月19日正式揭牌成立。山东师范大学是该该孔子学院的中方承办院校。又石大学孔子学院位于全州市中心地带的全北日报社大楼12层，交通便利，与全北大学相邻，周边遍布大学生活文化区，便于开展汉语培训及文化活动。",
+			"加拿大",
+			"geo:[",
+			"}\n",
+			"//geo",
+			"日本",
+			"p",
+			"function (params) {\n            return params.name + (params.value == '-' ? '': params.value);\n        }",
+			"rgba",
+			"'',\n",
+			"body",
+			"block",
+			"gmail",
+			">\n",
+			"			\n",
+			"()\n",
+			"'.",
+			"735B252506F3F9DF303EAD079E164E679BFE3557",
+			"<identity impersonate=\"true\" userName=\"fileshare@65Daigou.local\" password=\"65daigou@xiamensaige\"/>",
+			"&gt;",
+			"&lt;",
+			"proName",
+			"7z",
+			"&gt;",
+			"&lt;",
+			"DG-3192|DG-3189|DGW-1204|DGW-1211|DGW-1272|DGW-1251|DGW-1282|DGW-1256|DG-3195|DGW-1257|DGW-1278|DG-3197|DG-3198|DG-3200|DGW-1258",
+			"RecentPurchase/ParentCategoryId",
+			"RecentPurchase/ProductCategoryId",
+			"11857",
+			"175.156",
+			"这两天处理掉",
+			"1. 全部的软件硬件配置都有hostsg来做, 我们只做我们程序业务本身的事情.\n1. HostSG team will cover all configurations about hardware, software(including the OS and plugins) and monitor, 65daigou IT team will just handle all things about business and some readonly database query.\n2. hostsg现有的ticket系统不能使用了, 安全性低, 里面会有配置或者密码等内容进行沟通, 需要另外一个安全的系统进行管理和沟通, 沟通需要有history和时间点.\n2. For conversation between HostSG and 65daigou, we will post the non-confidential information into HostSG ticket system, and using the email for confidential data. Both team should make a conf-call if anyone need an urgent change.\n3. 使用新的系统, 我们会对我们提出的要求和改动设置最晚响应的时间, 超过这个时间, 我们需要投诉\n3. For both ticket system and email converstaion, 65daigou will indecate the \"End-Time\" for each change, HostSG must make the change done in time.\n4. 目前阶段先配置database, 包括监控(hostsg自己管)等等, 我们需要能在任何时间任何情况下之后现在服务器数据库遇到的问题和具体内容.\n4. HostSG will monitor the database and its runtime performance, if issued, 65daigou IT team can get the detail message about the issue.\n5. 对于数据库来说, 我们不要sa账户权限, 全部统一hostsg管理.\n5. 65daigou IT team HAS NO \"sa\" account or related sqlserver administrator access right.\n6. 所有服务器的性能指标都需要有一个类似cacti的系统让我们实时看到, 我们需要参照这些指标确定后续程序和业务处理的设计细节.\n6. 65daigou IT team need a performance reporting system just \"Cacti\" for troubleshooting and investigating the program design for future.\n7. 数据库的数据查询的部分, 需要提供一个方式可以查询到具体数据, 所用的账户只需能查到数据即可.\n7. As we talked yesterday, HostSG team provide us a remote server for querying any readonly data in sqlserver via VPN connect.\n7.1 数据的更新部分, 我们不直接进行数据操作, 但是我们会提供数据操作的脚本供hostsg执行.\n7.1 Again, for data updating, 65daigou IT team has no any access right to change any data, but 65daigou IT team will provide the SQL script as well. If these scripts harm the system or database performance, please clarify.\n7.2 对于数据库性能问题, hostsg要直接给出优化建议, 而不只是告诉我们服务器遇到了问题.\n7.2 For database performance issue, HostSG team must provide the detail message and optimization information for issue rather than \"our system meets problem\".\n7.3 数据库的data collection在hostsg接管之后, 安装不安装由hostsg自己决定, 我们不管理.\n7.3 As we coverd before, we used the Data Collection system\n8. 网站配置上, hostsg提供ftp, 除非特殊情况, 我们不要rdp, 所有的配置改动全部走上面说的方式进行ticket化处理.\n9. 对于LB和FW的部分, 同样使用上述内容进行沟通.\n10. 数据库的failure over部分, hostsg全部管理, 我们需要得到的是他们SLA的时间的实际情况, 每月每年downtime有多久, 遇到问题是否能即时切换, 具体切换我们不做.\n11. 数据库的备份, 我们要能拿到过去至少一个月任何时间的数据库备份做分析和数据修复, 请hostsg提供FTP.\n12. job和程序插件的安装和维护, hostsg也要一并做到. 包括服务重启等等. 我们只提供文档, 包含使用的工具框架以及版本, 不提供安装包.\n13. sqlsever需要给出我们需要做的事情, 具体权限要hostsg给我们.\n14. sqlsever需要一个schdule的task的列表, 标明多长时间做些什么事情.\n15. 需要由于一个初始化的数据库给hostsg做inistial deploy.\n16. \n",
+			"93209043",
+			"\",",
+			"\",\n",
+			"GO",
+			"msdn",
+			"m's'd'n",
+			"github",
+			" }",
+			"; "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"xxxxxxxxxxxxxx.mp3\"",
+			"xxxxxxxxxxxxxx.mp3",
+			"",
+			"//geo:[",
+			"geo",
+			">",
+			"<",
+			">",
+			"<",
+			"\n GO",
+			"\\r\\n GO",
+			"",
+			"203.208.41.144"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/kisflying/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								381,
+								381
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/kisflying/Library/Mobile Documents/com~apple~CloudDocs/dcouments/droppad.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 562,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								562,
+								562
+							]
+						],
+						"settings":
+						{
+							"auto_name": "net use z: \\\\192.168.10.101\\online-log-backup",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/kisflying/Library/Mobile Documents/com~apple~CloudDocs/profiles/chrome.css.mac.ext/Custom-Mac.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								418,
+								418
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/kisflying/.ssh/config",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 347,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								110,
+								110
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/kisflying/.ssh/known_hosts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7888,
+								7888
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 2321.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2154,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1006,
+								1006
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 193.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "db_model.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1801,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								309,
+								309
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "lib/mgdb.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								27
+							]
+						],
+						"settings":
+						{
+							"auto_name": "function mgdb(){",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/kisflying/Desktop/untitled.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 615,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								500,
+								500
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "lib/functions.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								197,
+								197
+							]
+						],
+						"settings":
+						{
+							"auto_name": "function guid(){",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "README.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 16,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "route/sharing.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "route/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 471,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								233,
+								233
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/Users/kisflying/Projects/nodexpress.eipiai.com.svn/routes/api.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 944,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								439,
+								439
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 31.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 594,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								144,
+								144
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "myjiangpu-api.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"custom",
+				"~/Dropbox/Profiles/chrome.css.mac.ext/Custom-Mac.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 269.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
