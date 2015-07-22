@@ -1,7 +1,19 @@
 // This file shows all mongodb data schemas which can be used in nodejs application.
 function configurations(){
-	
+	this.isApiRunning = true;
 }
+
+function appLog(){
+	this.logId = '';
+	this.title = '';
+	this.message = '';
+	this.level = '';
+	this.datetime = new Date();
+	this.source = '';
+	this.innerMessage = '';
+}
+
+/* ********************************************************************************** */
 
 function customer(){
 	this.wechatId = ''; // Get it from Wechat API.

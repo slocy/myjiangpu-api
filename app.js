@@ -8,10 +8,18 @@ var bodyParser = require('body-parser');
 var app = express();
 
 var index = require('./route/index');
-var artisan = require('./route/artisan');
 var auth = require('./route/auth');
-var book = require('./route/book');
 var sharing = require('./route/sharing');
+
+var artisan = require('./route/artisan');
+var book = require('./route/book');
+var book = require('./route/bookSteps');
+var book = require('./route/bookStuffs');
+var book = require('./route/customer');
+var book = require('./route/lesson');
+var book = require('./route/order');
+var book = require('./route/payment');
+var book = require('./route/utility');
 
 app.use(logger('dev'));
 app.use(bodyParser.json());
@@ -20,10 +28,19 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-app.use('/artisan', artisan);
-app.use('/auth', auth);
-app.use('/book', book);
 app.use('/sharing', sharing);
+app.use('/auth', auth);
+
+app.use('/artisan', artisan);
+app.use('/book', book);
+app.use('/bookSteps', bookSteps);
+app.use('/bookStuffs', bookStuffs);
+app.use('/customer', customer);
+app.use('/lesson', lesson);
+app.use('/order', order);
+app.use('/payment', payment);
+app.use('/utility', utility);
+
 
 var server = app.listen(3000, function () {
   var host = server.address().address;
