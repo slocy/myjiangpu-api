@@ -11,7 +11,7 @@ var db_model = function(){
 	};
 
 	/* ********************************************************************************** */
-	var customer = {
+	this.customer = {
 		wechatId : '', // Get it from Wechat API.
 		name : '',
 		nickname : '',
@@ -20,7 +20,7 @@ var db_model = function(){
 		cellphone : '',
 	};
 
-	var artisan = {
+	this.artisan = {
 		artisanId : '',
 		name : '',
 		wechatId : '',
@@ -30,7 +30,7 @@ var db_model = function(){
 		geo : '',
 	};
 
-	var book = {
+	this.book = {
 		bookId : '',
 		title : '',
 		subTitle : '',
@@ -40,7 +40,7 @@ var db_model = function(){
 		images : [],
 	};
 
-	var bookSteps = {
+	this.bookSteps = {
 		stepId : '',
 		name : '',
 		content : '',
@@ -48,7 +48,7 @@ var db_model = function(){
 		videos : [],
 	};
 
-	var bookStuffs = {
+	this.bookStuffs = {
 		stuffId : '',
 		title : '',
 		description : '',
@@ -56,7 +56,7 @@ var db_model = function(){
 		images : [],
 	};
 
-	var utility = {
+	this.utility = {
 		utilityId : '',
 		name : '',
 		description : '',
@@ -64,7 +64,7 @@ var db_model = function(){
 		price : 0,
 	};
 
-	var lesson = {
+	this.lesson = {
 		lessonId : '',
 		title : '',
 		customerIds : [],
@@ -75,7 +75,7 @@ var db_model = function(){
 		price : 0,
 	};
 
-	var order = {
+	this.order = {
 		orderId : '',
 		type : '', // can be utility, lesson, stuff...
 		quantity : 1,
@@ -87,7 +87,7 @@ var db_model = function(){
 		stuffId : '',
 	};
 
-	var payment = {
+	this.payment = {
 		paymentId : '',
 		summary : 0,
 		isPaid : 0,
@@ -95,7 +95,7 @@ var db_model = function(){
 		method : '', // can be wechat, unionpay, credit_card
 	};
 
-	var configurations = {
+	this.configurations = {
 		isApiRunning : true,
 	};
 };
