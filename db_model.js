@@ -1,6 +1,6 @@
 // This file shows all mongodb data schemas which can be used in nodejs application.
-db_model = {
-	appLog : {
+var db_model = function(){
+	var appLog = {
 		logId : '',
 		title : '',
 		message : '',
@@ -8,19 +8,19 @@ db_model = {
 		datetime : new Date(),
 		source : '',
 		innerMessage : '',
-	},
+	};
 
 	/* ********************************************************************************** */
-	customer : {
+	var customer : {
 		wechatId : '', // Get it from Wechat API.
 		name : '',
 		nickname : '',
 		gender : 'Male',
 		email : '',
 		cellphone : '',
-	},
+	};
 
-	artisan : {
+	var artisan : {
 		artisanId : '',
 		name : '',
 		wechatId : '',
@@ -28,9 +28,9 @@ db_model = {
 		description : '',
 		city : '',
 		geo : '',
-	},
+	};
 
-	book : {
+	var book : {
 		bookId : '',
 		title : '',
 		subTitle : '',
@@ -38,33 +38,33 @@ db_model = {
 		primaryImage : '',
 		primaryVideo : '',
 		images : [],
-	},
+	};
 
-	bookSteps : {
+	var bookSteps : {
 		stepId : '',
 		name : '',
 		content : '',
 		images : [],
 		videos : [],
-	},
+	};
 
-	bookStuffs : {
+	var bookStuffs : {
 		stuffId : '',
 		title : '',
 		description : '',
 		price : 0,
 		images : [],
-	},
+	};
 
-	utility : {
+	var utility : {
 		utilityId : '',
 		name : '',
 		description : '',
 		images : [],
 		price : 0,
-	},
+	};
 
-	lesson : {
+	var lesson : {
 		lessonId : '',
 		title : '',
 		customerIds : [],
@@ -73,9 +73,9 @@ db_model = {
 		datetime : '',
 		place : '',
 		price : 0,
-	},
+	};
 
-	order : {
+	var order : {
 		orderId : '',
 		type : '', // can be utility, lesson, stuff...
 		quantity : 1,
@@ -85,19 +85,19 @@ db_model = {
 		lessonId : '',
 		utilityId : '',
 		stuffId : '',
-	},
+	};
 
-	payment : {
+	var payment : {
 		paymentId : '',
 		summary : 0,
 		isPaid : 0,
 		transaction : '',
 		method : '', // can be wechat, unionpay, credit_card
-	},
+	};
 
-	configurations : {
+	var configurations : {
 		isApiRunning : true,
-	},
+	};
 };
 
 module.exports = db_model;
