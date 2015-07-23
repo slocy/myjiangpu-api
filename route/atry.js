@@ -13,7 +13,6 @@ router.get('/', function(req, res, next) {
 		return init.find();
 	})
 
-	//var t = {id:1, name:'Kris'};
 	res.send(result);
 });
 
