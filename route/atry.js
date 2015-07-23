@@ -10,7 +10,11 @@ router.get('/', function(req, res, next) {
 
 		var init = db.collection('InitUsers');
 
-		init.find({userid : 2}, function(err, item){
+		init.insert({userid:3,username:'insert',auth_path:'test',auth_date:'2015-02-02'}, function(err,red){
+			console.log(red);
+		});
+
+		init.findOne({userid : 2}, function(err, item){
 			console.log(item);
 		});
 
