@@ -2,15 +2,16 @@ var express = require('express');
 var router = express.Router();
 var mongodb = require('mongodb');
 var mgClient = mongodb.MongoClient;
-var model = require('../db_model');
+var mdl = require('../db_model');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
 	mgClient.connect('mongodb://localhost:27017/rockdb', function(err,db){
 		if(err) return console.dir(err);
 
-		var m = new model();
+		var m = new mdl();
 		
+		console.log(mdl);
 		console.log(m.appLog);
 
 		db.close();
