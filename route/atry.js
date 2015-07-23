@@ -12,15 +12,14 @@ router.get('/', function(req, res, next) {
 		var clc = db.collection('appLog');
 		
 		var rt = 'no';
-		clc.find().toArray(err, function(err,docs){
+		clc.find({}).toArray(function(err,docs){
 			rt = docs;
-			console.log(docs);
+			console.log(rt);
 		});
 
-		console.log(rt);
 		return res.send(rt);
 
-		//db.close();
+		db.close();
 	});
 });
 
