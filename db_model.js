@@ -20,7 +20,7 @@ db_model = {
 		cellphone : '',
 	},
 
-	artisan = {
+	artisan : {
 		artisanId : '',
 		name : '',
 		wechatId : '',
@@ -30,7 +30,7 @@ db_model = {
 		geo : '',
 	},
 
-	book = {
+	book : {
 		bookId : '',
 		title : '',
 		subTitle : '',
@@ -40,7 +40,7 @@ db_model = {
 		images : [],
 	},
 
-	bookSteps = {
+	bookSteps : {
 		stepId : '',
 		name : '',
 		content : '',
@@ -48,7 +48,7 @@ db_model = {
 		videos : [],
 	},
 
-	bookStuffs = {
+	bookStuffs : {
 		stuffId : '',
 		title : '',
 		description : '',
@@ -56,7 +56,7 @@ db_model = {
 		images : [],
 	},
 
-	utility = {
+	utility : {
 		utilityId : '',
 		name : '',
 		description : '',
@@ -64,7 +64,7 @@ db_model = {
 		price : 0,
 	},
 
-	lesson = {
+	lesson : {
 		lessonId : '',
 		title : '',
 		customerIds : [],
@@ -75,7 +75,7 @@ db_model = {
 		price : 0,
 	},
 
-	order = {
+	order : {
 		orderId : '',
 		type : '', // can be utility, lesson, stuff...
 		quantity : 1,
@@ -87,7 +87,7 @@ db_model = {
 		stuffId : '',
 	},
 
-	payment = {
+	payment : {
 		paymentId : '',
 		summary : 0,
 		isPaid : 0,
@@ -95,7 +95,7 @@ db_model = {
 		method : '', // can be wechat, unionpay, credit_card
 	},
 
-	configurations = {
+	configurations : {
 		isApiRunning : true,
 	},
 };
