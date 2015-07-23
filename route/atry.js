@@ -10,9 +10,15 @@ router.get('/', function(req, res, next) {
 		if(err) return console.dir(err);
 
 		var m = new mdl();
+		m.appLog.logId = 1;
+		m.appLog.title = 'right log';
+		m.appLog.Message = 'Good message';
+		m.appLog.level = 'top';
 		
-		console.log(mdl);
 		console.log(m.appLog);
+
+		var clc = db.collection('appLog');
+		clc.insert(m.appLog);
 
 		db.close();
 		
