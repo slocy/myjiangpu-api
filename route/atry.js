@@ -5,17 +5,13 @@ var mgClient = mongodb.MongoClient;
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-	var result = null;
-
-	mgClient.connect('mongodb://localhost:27017/pilotdatabase', function(err,db){
+	var result = mgClient.connect('mongodb://localhost:27017/pilotdatabase', function(err,db){
 		if(err) return console.dir(err);
 
 		var init = db.collection('InitUsers');
 
-		result = init.find();
+		return init.find();
 	})
-
-	console.log(result);
 
 	//var t = {id:1, name:'Kris'};
 	res.send(result);
