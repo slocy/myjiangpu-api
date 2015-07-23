@@ -11,7 +11,7 @@ var db_model = function(){
 	};
 
 	/* ********************************************************************************** */
-	var customer : {
+	var customer = {
 		wechatId : '', // Get it from Wechat API.
 		name : '',
 		nickname : '',
@@ -20,7 +20,7 @@ var db_model = function(){
 		cellphone : '',
 	};
 
-	var artisan : {
+	var artisan = {
 		artisanId : '',
 		name : '',
 		wechatId : '',
@@ -30,7 +30,7 @@ var db_model = function(){
 		geo : '',
 	};
 
-	var book : {
+	var book = {
 		bookId : '',
 		title : '',
 		subTitle : '',
@@ -40,7 +40,7 @@ var db_model = function(){
 		images : [],
 	};
 
-	var bookSteps : {
+	var bookSteps = {
 		stepId : '',
 		name : '',
 		content : '',
@@ -48,7 +48,7 @@ var db_model = function(){
 		videos : [],
 	};
 
-	var bookStuffs : {
+	var bookStuffs = {
 		stuffId : '',
 		title : '',
 		description : '',
@@ -56,7 +56,7 @@ var db_model = function(){
 		images : [],
 	};
 
-	var utility : {
+	var utility = {
 		utilityId : '',
 		name : '',
 		description : '',
@@ -64,7 +64,7 @@ var db_model = function(){
 		price : 0,
 	};
 
-	var lesson : {
+	var lesson = {
 		lessonId : '',
 		title : '',
 		customerIds : [],
@@ -75,7 +75,7 @@ var db_model = function(){
 		price : 0,
 	};
 
-	var order : {
+	var order = {
 		orderId : '',
 		type : '', // can be utility, lesson, stuff...
 		quantity : 1,
@@ -87,7 +87,7 @@ var db_model = function(){
 		stuffId : '',
 	};
 
-	var payment : {
+	var payment = {
 		paymentId : '',
 		summary : 0,
 		isPaid : 0,
@@ -95,7 +95,7 @@ var db_model = function(){
 		method : '', // can be wechat, unionpay, credit_card
 	};
 
-	var configurations : {
+	var configurations = {
 		isApiRunning : true,
 	};
 };
