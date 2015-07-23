@@ -1,10 +1,17 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
+/*
+Method:
+	GET /bookstuffs?bookId=1
+	Get the stuff list of selected Jiang book.
+Parameters:
+	# bookId
+Result:
+	the Json array list with summary of current Jiang book.
+*/
 router.get('/', function(req, res, next) {
-	var t = {id:1, name:'Kris'}
-	res.send(t);
+	res.send({});
 });
 
 module.exports = router;

@@ -21,6 +21,7 @@ var order = require('./route/order');
 var payment = require('./route/payment');
 var utility = require('./route/utility');
 var atry = require('./route/atry');
+var init = require('./route/init');
 
 app.use(logger('dev'));
 app.use(bodyParser.json());
@@ -43,6 +44,7 @@ app.use('/order', order);
 app.use('/payment', payment);
 app.use('/utility', utility);
 app.use('/atry', atry);
+app.use('/init', init);
 
 var server = app.listen(3000, function () {
   var host = server.address().address;

@@ -94,6 +94,7 @@ function order(){
 function payment(){
 	this.paymentId = '';
 	this.summary = 0;
-	this.isPayed = 0;
+	this.isPaid = 0;
 	this.transaction = '';
+	this.method=''; // can be wechat, unionpay, credit_card
 }

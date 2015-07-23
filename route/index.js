@@ -13,6 +13,7 @@ router.get('/', function(req, res, next) {
 	res.send(t);
 });
 
+/* // this code section is in testing, please remove these if you don't need.
 router.post('/', function(req, res, next) {
 	var t = {time:new Date(), name:'Post'};
 
@@ -24,5 +25,6 @@ router.put('/', function(req, res, next) {
 
 	res.send(t);
 });
+*/
 
 module.exports = router;
