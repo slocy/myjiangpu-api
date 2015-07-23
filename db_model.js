@@ -8,7 +8,7 @@ db_model = {
 		datetime : new Date(),
 		source : '',
 		innerMessage : '',
-	};
+	},
 
 	/* ********************************************************************************** */
 	customer : {
@@ -18,7 +18,7 @@ db_model = {
 		gender : 'Male',
 		email : '',
 		cellphone : '',
-	};
+	},
 
 	artisan = {
 		artisanId : '',
@@ -28,7 +28,7 @@ db_model = {
 		description : '',
 		city : '',
 		geo : '',
-	};
+	},
 
 	book = {
 		bookId : '',
@@ -38,7 +38,7 @@ db_model = {
 		primaryImage : '',
 		primaryVideo : '',
 		images : [],
-	};
+	},
 
 	bookSteps = {
 		stepId : '',
@@ -46,7 +46,7 @@ db_model = {
 		content : '',
 		images : [],
 		videos : [],
-	};
+	},
 
 	bookStuffs = {
 		stuffId : '',
@@ -54,7 +54,7 @@ db_model = {
 		description : '',
 		price : 0,
 		images : [],
-	};
+	},
 
 	utility = {
 		utilityId : '',
@@ -62,7 +62,7 @@ db_model = {
 		description : '',
 		images : [],
 		price : 0,
-	};
+	},
 
 	lesson = {
 		lessonId : '',
@@ -73,7 +73,7 @@ db_model = {
 		datetime : '',
 		place : '',
 		price : 0,
-	};
+	},
 
 	order = {
 		orderId : '',
@@ -85,7 +85,7 @@ db_model = {
 		lessonId : '',
 		utilityId : '',
 		stuffId : '',
-	};
+	},
 
 	payment = {
 		paymentId : '',
@@ -93,11 +93,11 @@ db_model = {
 		isPaid : 0,
 		transaction : '',
 		method : '', // can be wechat, unionpay, credit_card
-	};
+	},
 
 	configurations = {
 		isApiRunning : true,
-	};
+	},
 };
 
 module.exports = db_model;
