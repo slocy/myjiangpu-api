@@ -20,7 +20,7 @@ router.get('/', function(req, res, next) {
 
 		console.log(rt);
 
-		db.close();
+		//db.close();
 	});
 });
 
