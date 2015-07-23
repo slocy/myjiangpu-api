@@ -1,6 +1,6 @@
 // This file shows all mongodb data schemas which can be used in nodejs application.
 var db_model = function(){
-	this.db_model.appLog = {
+	db_model.appLog = {
 		logId : '',
 		title : '',
 		message : '',
@@ -11,7 +11,7 @@ var db_model = function(){
 	};
 
 	/* ********************************************************************************** */
-	this.db_model.customer = {
+	db_model.customer = {
 		wechatId : '', // Get it from Wechat API.
 		name : '',
 		nickname : '',
@@ -20,7 +20,7 @@ var db_model = function(){
 		cellphone : '',
 	};
 
-	this.db_model.artisan = {
+	db_model.artisan = {
 		artisanId : '',
 		name : '',
 		wechatId : '',
@@ -30,7 +30,7 @@ var db_model = function(){
 		geo : '',
 	};
 
-	this.db_model.book = {
+	db_model.book = {
 		bookId : '',
 		title : '',
 		subTitle : '',
@@ -40,7 +40,7 @@ var db_model = function(){
 		images : [],
 	};
 
-	this.db_model.bookSteps = {
+	db_model.bookSteps = {
 		stepId : '',
 		name : '',
 		content : '',
@@ -48,7 +48,7 @@ var db_model = function(){
 		videos : [],
 	};
 
-	this.db_model.bookStuffs = {
+	db_model.bookStuffs = {
 		stuffId : '',
 		title : '',
 		description : '',
@@ -56,7 +56,7 @@ var db_model = function(){
 		images : [],
 	};
 
-	this.db_model.utility = {
+	db_model.utility = {
 		utilityId : '',
 		name : '',
 		description : '',
@@ -64,7 +64,7 @@ var db_model = function(){
 		price : 0,
 	};
 
-	this.db_model.lesson = {
+	db_model.lesson = {
 		lessonId : '',
 		title : '',
 		customerIds : [],
@@ -75,7 +75,7 @@ var db_model = function(){
 		price : 0,
 	};
 
-	this.db_model.order = {
+	db_model.order = {
 		orderId : '',
 		type : '', // can be utility, lesson, stuff...
 		quantity : 1,
@@ -87,7 +87,7 @@ var db_model = function(){
 		stuffId : '',
 	};
 
-	this.db_model.payment = {
+	db_model.payment = {
 		paymentId : '',
 		summary : 0,
 		isPaid : 0,
@@ -95,7 +95,7 @@ var db_model = function(){
 		method : '', // can be wechat, unionpay, credit_card
 	};
 
-	this.db_model.configurations = {
+	db_model.configurations = {
 		isApiRunning : true,
 	};
 };
