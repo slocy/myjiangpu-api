@@ -14,9 +14,11 @@ router.get('/', function(req, res, next) {
 		var rt = 'no';
 		clc.find().toArray(err, function(err,docs){
 			rt = docs;
+			console.log(docs);
 		});
 
 		console.log(rt);
+		return res.send(rt);
 
 		//db.close();
 	});
