@@ -21,13 +21,13 @@ router.get('/', function(req, res, next) {
 	});
 
 	var init = mongoose.model('init', initUsersSchema);
-	var i = new init({ userid: 3, username: 'mongoose', auth_path:'123', auth_date: '2015-01-01' });
-	console.log(i.username); 
+	//var i = new init({ userid: 3, username: 'mongoose', auth_path:'123', auth_date: '2015-01-01' });
+	//console.log(i.username); 
 
-	Kitten.find({ name: /^Fluff/ }, callback);
+	var result = init.find();
 
-	var t = {id:1, name:'Kris'}
-	res.send(t);
+	//var t = {id:1, name:'Kris'};
+	res.send(result);
 });
 
 module.exports = router;
