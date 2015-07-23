@@ -1,6 +1,6 @@
 // This file shows all mongodb data schemas which can be used in nodejs application.
 var db_model = function(){
-	db_model.appLog = {
+	var appLog = {
 		logId : '',
 		title : '',
 		message : '',
@@ -11,7 +11,7 @@ var db_model = function(){
 	};
 
 	/* ********************************************************************************** */
-	db_model.customer = {
+	var customer = {
 		wechatId : '', // Get it from Wechat API.
 		name : '',
 		nickname : '',
@@ -20,7 +20,7 @@ var db_model = function(){
 		cellphone : '',
 	};
 
-	db_model.artisan = {
+	var artisan = {
 		artisanId : '',
 		name : '',
 		wechatId : '',
@@ -30,7 +30,7 @@ var db_model = function(){
 		geo : '',
 	};
 
-	db_model.book = {
+	var book = {
 		bookId : '',
 		title : '',
 		subTitle : '',
@@ -40,7 +40,7 @@ var db_model = function(){
 		images : [],
 	};
 
-	db_model.bookSteps = {
+	var bookSteps = {
 		stepId : '',
 		name : '',
 		content : '',
@@ -48,7 +48,7 @@ var db_model = function(){
 		videos : [],
 	};
 
-	db_model.bookStuffs = {
+	var bookStuffs = {
 		stuffId : '',
 		title : '',
 		description : '',
@@ -56,7 +56,7 @@ var db_model = function(){
 		images : [],
 	};
 
-	db_model.utility = {
+	var utility = {
 		utilityId : '',
 		name : '',
 		description : '',
@@ -64,7 +64,7 @@ var db_model = function(){
 		price : 0,
 	};
 
-	db_model.lesson = {
+	var lesson = {
 		lessonId : '',
 		title : '',
 		customerIds : [],
@@ -75,7 +75,7 @@ var db_model = function(){
 		price : 0,
 	};
 
-	db_model.order = {
+	var order = {
 		orderId : '',
 		type : '', // can be utility, lesson, stuff...
 		quantity : 1,
@@ -87,7 +87,7 @@ var db_model = function(){
 		stuffId : '',
 	};
 
-	db_model.payment = {
+	var payment = {
 		paymentId : '',
 		summary : 0,
 		isPaid : 0,
@@ -95,7 +95,7 @@ var db_model = function(){
 		method : '', // can be wechat, unionpay, credit_card
 	};
 
-	db_model.configurations = {
+	var configurations = {
 		isApiRunning : true,
 	};
 };
