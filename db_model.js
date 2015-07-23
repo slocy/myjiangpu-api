@@ -1,9 +1,11 @@
 // This file shows all mongodb data schemas which can be used in nodejs application.
-function configurations(){
+var db_model = {};
+
+db_model.configurations = function(){
 	this.isApiRunning = true;
 }
 
-function appLog(){
+db_model.appLog = function(){
 	this.logId = '';
 	this.title = '';
 	this.message = '';
@@ -14,8 +16,7 @@ function appLog(){
 }
 
 /* ********************************************************************************** */
-
-function customer(){
+db_model.customer = function(){
 	this.wechatId = ''; // Get it from Wechat API.
 	this.name = '';
 	this.nickname = '';
@@ -24,7 +25,7 @@ function customer(){
 	this.cellphone = '';
 }
 
-function artisan(){
+db_model.artisan = function(){
 	this.artisanId = '';
 	this.name = '';
 	this.wechatId = '';
@@ -34,7 +35,7 @@ function artisan(){
 	this.geo = '';
 }
 
-function book(){
+db_model.book = function(){
 	this.bookId = '';
 	this.title = '';
 	this.subTitle = '';
@@ -44,7 +45,7 @@ function book(){
 	this.images = [];
 }
 
-function bookSteps(){
+db_model.bookSteps = function(){
 	this.stepId = '';
 	this.name = '';
 	this.content = '';
@@ -52,7 +53,7 @@ function bookSteps(){
 	this.videos = [];
 }
 
-function bookStuffs(){
+db_model.bookStuffs = function(){
 	this.stuffId = '';
 	this.title = '';
 	this.description = '';
@@ -60,7 +61,7 @@ function bookStuffs(){
 	this.images = [];
 }
 
-function utility(){
+db_model.utility = function(){
 	this.utilityId = '';
 	this.name = '';
 	this.description = '';
@@ -68,7 +69,7 @@ function utility(){
 	this.price = 0;
 }
 
-function lesson(){
+db_model.lesson = function(){
 	this.lessonId = '';
 	this.title = '';
 	this.customerIds = [];
@@ -79,7 +80,7 @@ function lesson(){
 	this.price = 0;
 }
 
-function order(){
+db_model.order = function(){
 	this.orderId = '';
 	this.type = ''; // can be utility, lesson, stuff...
 	this.quantity = 1;
@@ -91,10 +92,12 @@ function order(){
 	this.stuffId = '';
 }
 
-function payment(){
+db_model.payment = function(){
 	this.paymentId = '';
 	this.summary = 0;
 	this.isPaid = 0;
 	this.transaction = '';
 	this.method=''; // can be wechat, unionpay, credit_card
 }
+
+module.exports = db_model;
