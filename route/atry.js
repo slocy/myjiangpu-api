@@ -27,7 +27,7 @@ router.get('/', function(req, res, next) {
 	var result = init.find();
 
 	//var t = {id:1, name:'Kris'};
-	res.send(result);
+	res.send(result.toJson());
 });
 
 module.exports = router;
