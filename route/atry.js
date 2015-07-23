@@ -9,8 +9,9 @@ router.get('/', function(req, res, next) {
 	mgClient.connect('mongodb://localhost:27017/rockdb', function(err,db){
 		if(err) return console.dir(err);
 
-		var log = new model();
-		console.log(log);
+		var m = new model();
+		
+		console.log(m.appLog);
 
 		db.close();
 		
