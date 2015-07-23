@@ -9,20 +9,13 @@ router.get('/', function(req, res, next) {
 	mgClient.connect('mongodb://localhost:27017/rockdb', function(err,db){
 		if(err) return console.dir(err);
 
-		var m = new mdl();
-		m.appLog.logId = 1;
-		m.appLog.title = 'right log';
-		m.appLog.Message = 'Good message';
-		m.appLog.level = 'top';
-		
-		console.log(m.appLog);
-
 		var clc = db.collection('appLog');
-		clc.insert(m.appLog);
+		
+		clc.find().toArray(function(err, docs){
+			return res.send(docs);
+		});
 
 		db.close();
-		
-		return res.send('');
 	});
 });
 
