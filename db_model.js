@@ -1,6 +1,6 @@
 // This file shows all mongodb data schemas which can be used in nodejs application.
 var db_model = function(){
-	var appLog = {
+	this.appLog = {
 		logId : '',
 		title : '',
 		message : '',
