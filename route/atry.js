@@ -12,7 +12,9 @@ router.get('/', function(req, res, next) {
 
 		var init = db.collection('InitUsers');
 
-		result = init.find()
+		result = init.find();
+
+		console.log(result);
 	})
 
 	//var t = {id:1, name:'Kris'};
