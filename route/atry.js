@@ -24,10 +24,10 @@ router.get('/', function(req, res, next) {
 	//var i = new init({ userid: 3, username: 'mongoose', auth_path:'123', auth_date: '2015-01-01' });
 	//console.log(i.username); 
 
-	var result = init.find();
+	//var result = init.find();
 
-	//var t = {id:1, name:'Kris'};
-	res.send(result.toJSON());
+	var t = {id:1, name:'Kris'};
+	res.send(t);
 });
 
 module.exports = router;
