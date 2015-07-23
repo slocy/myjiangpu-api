@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
 
 		var init = db.collection('InitUsers');
 
-		res.send(result);
+		res.send(init.findOne());
 	});
 });
 
