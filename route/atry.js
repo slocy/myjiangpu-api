@@ -12,7 +12,7 @@ var initUsersSchema = mongoose.Schema({
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-/*	mongoose.connect('mongodb://localhost/pilotdatabase');
+	mongoose.connect('mongodb://localhost/pilotdatabase');
 
 	var db = mongoose.connection;
 	db.on('error', console.error.bind(console, 'connection error:'));
@@ -25,9 +25,9 @@ router.get('/', function(req, res, next) {
 	//console.log(i.username); 
 
 	var result = init.find();
-*/
-	var t = {id:1, name:'Kris'};
-	res.send(t);
+
+	//var t = {id:1, name:'Kris'};
+	res.send(resutl);
 });
 
 module.exports = router;
