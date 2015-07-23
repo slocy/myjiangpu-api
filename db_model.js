@@ -2,102 +2,102 @@
 var db_model = function(){};
 
 db_model.configurations = {
-	this.isApiRunning : true,
+	isApiRunning : true,
 }
 
 db_model.appLog = {
-	this.logId : '',
-	this.title : '',
-	this.message : '',
-	this.level : '',
-	this.datetime : new Date(),
-	this.source : '',
-	this.innerMessage : '',
+	logId : '',
+	title : '',
+	message : '',
+	level : '',
+	datetime : new Date(),
+	source : '',
+	innerMessage : '',
 }
 
 /* ********************************************************************************** */
 db_model.customer = {
-	this.wechatId : '', // Get it from Wechat API.
-	this.name : '',
-	this.nickname : '',
-	this.gender : 'Male',
-	this.email : '',
-	this.cellphone : '',
+	wechatId : '', // Get it from Wechat API.
+	name : '',
+	nickname : '',
+	gender : 'Male',
+	email : '',
+	cellphone : '',
 }
 
 db_model.artisan = {
-	this.artisanId : '',
-	this.name : '',
-	this.wechatId : '',
-	this.cellphone : '',
-	this.description : '',
-	this.city : '',
-	this.geo : '',
+	artisanId : '',
+	name : '',
+	wechatId : '',
+	cellphone : '',
+	description : '',
+	city : '',
+	geo : '',
 }
 
 db_model.book = {
-	this.bookId : '',
-	this.title : '',
-	this.subTitle : '',
-	this.description : '',
-	this.primaryImage : '',
-	this.primaryVideo : '',
-	this.images : [],
+	bookId : '',
+	title : '',
+	subTitle : '',
+	description : '',
+	primaryImage : '',
+	primaryVideo : '',
+	images : [],
 }
 
 db_model.bookSteps = {
-	this.stepId : '',
-	this.name : '',
-	this.content : '',
-	this.images : [],
-	this.videos : [],
+	stepId : '',
+	name : '',
+	content : '',
+	images : [],
+	videos : [],
 }
 
 db_model.bookStuffs = {
-	this.stuffId : '',
-	this.title : '',
-	this.description : '',
-	this.price : 0,
-	this.images : [],
+	stuffId : '',
+	title : '',
+	description : '',
+	price : 0,
+	images : [],
 }
 
 db_model.utility = {
-	this.utilityId : '',
-	this.name : '',
-	this.description : '',
-	this.images : [],
-	this.price : 0,
+	utilityId : '',
+	name : '',
+	description : '',
+	images : [],
+	price : 0,
 }
 
 db_model.lesson = {
-	this.lessonId : '',
-	this.title : '',
-	this.customerIds : [],
-	this.artisanId : '',
-	this.bookId : '',
-	this.datetime : '',
-	this.place : '',
-	this.price : 0,
+	lessonId : '',
+	title : '',
+	customerIds : [],
+	artisanId : '',
+	bookId : '',
+	datetime : '',
+	place : '',
+	price : 0,
 }
 
 db_model.order = {
-	this.orderId : '',
-	this.type : '', // can be utility, lesson, stuff...
-	this.quantity : 1,
-	this.summary : 0,
-	this.paymentId : '',
-	this.customerId : '',
-	this.lessonId : '',
-	this.utilityId : '',
-	this.stuffId : '',
+	orderId : '',
+	type : '', // can be utility, lesson, stuff...
+	quantity : 1,
+	summary : 0,
+	paymentId : '',
+	customerId : '',
+	lessonId : '',
+	utilityId : '',
+	stuffId : '',
 }
 
 db_model.payment = {
-	this.paymentId : '',
-	this.summary : 0,
-	this.isPaid : 0,
-	this.transaction : '',
-	this.method : '', // can be wechat, unionpay, credit_card
+	paymentId : '',
+	summary : 0,
+	isPaid : 0,
+	transaction : '',
+	method : '', // can be wechat, unionpay, credit_card
 }
 
 module.exports = db_model;
