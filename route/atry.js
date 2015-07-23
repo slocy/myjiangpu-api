@@ -4,6 +4,8 @@ var mongodb = require('mongodb');
 var mgClient = mongodb.MongoClient;
 var mdl = require('../db_model');
 
+var rt = null;
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
 	mgClient.connect('mongodb://localhost:27017/rockdb', function(err,db){
@@ -11,18 +13,17 @@ router.get('/', function(req, res, next) {
 
 		var clc = db.collection('appLog');
 		
-		var rt = null;
-		(function(x){
-			clc.find().toArray(function(err, docs){
-				x = docs;
-			});
-		})(rt);
+		clc.find().toArray(cb);
 
 		console.log(rt);
 
 		//db.close();
 	});
 });
+
+function cb(err,docs){
+	rt = docs;
+}
 
 module.exports = router;
 
