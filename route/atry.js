@@ -13,9 +13,9 @@ router.get('/', function(req, res, next) {
 		var init = db.collection('InitUsers');
 
 		result = init.find();
-
-		console.log(result);
 	})
+
+	console.log(result);
 
 	//var t = {id:1, name:'Kris'};
 	res.send(result);
