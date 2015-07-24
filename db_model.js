@@ -37,6 +37,7 @@ var db_model = function(){
 		title : String,
 		subTitle : String,
 		description : String,
+		artisanId : String,
 		primaryImage : String,
 		primaryVideo : String,
 		images : Array,
