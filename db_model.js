@@ -95,9 +95,9 @@ var db_model = function(){
 		method : '', // can be wechat, unionpay, credit_card
 	};
 
-	this.configurations = {
+	this.cfg = {
 		isApiRunning : true,
-		mongodbUrl : 'mongodb://localhost:27017/rockdb',
+		dbUrl : 'mongodb://localhost:27017/rockdb',
 	};
 };
 

@@ -6,7 +6,7 @@ var mdl = require('../db_model');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-	mgClient.connect(new mdl().configurations.mongodbUrl, function(err,db){
+	mgClient.connect(new mdl().cfg.dbUrl, function(err,db){
 		if(err) return console.dir(err);
 
 		var query = {logId: parseInt(req.query.uId)};
