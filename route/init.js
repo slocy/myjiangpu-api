@@ -9,7 +9,7 @@ var mdl = new db_model();
 var func = new funct();
 
 mdl.book = {
-		bookId : func.guid(),
+		bookId : 'testBookId',
 		title : '一朵胸针',
 		subTitle : '来自茹萍的胸针设计',
 		description : 'asdfasdf,asdf,asdf  asdfasd,f asdfasdf,,asdf  asdf,as,df,, asdfasdf',
@@ -32,7 +32,7 @@ Result:
 	N/A
 */
 router.get('/db', function(req, res, next) {
-	mgClient.connect(new mdl().cfg.dbUrl, function(err,db){
+	mgClient.connect(new db_model().cfg.dbUrl, function(err,db){
 		if(err) return console.dir(err);
 
 		console.log('1');
