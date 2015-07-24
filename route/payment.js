@@ -12,7 +12,22 @@ Result:
 	The Json item of specified payment.
 */
 router.get('/', function(req, res, next) {
-	res.send({});
+	mgClient.connect(new mdl().cfg.dbUrl, function(err,db){
+		if(err) return console.dir(err);
+
+		var clc = db.collection('payment');
+
+		var query = {
+			customerId: parseInt(req.query.customerId || 0),
+			paymentId: parseInt(req.query.paymentId || 0),
+		};
+		
+		clc.findOne(query, function(err,doc){
+			res.send(doc);
+
+			db.close();
+		});
+	});
 });
 
 /*

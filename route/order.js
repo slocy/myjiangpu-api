@@ -11,7 +11,19 @@ Result:
 	The Json item of order detail
 */
 router.get('/', function(req, res, next) {
-	res.send({});
+	mgClient.connect(new mdl().cfg.dbUrl, function(err,db){
+		if(err) return console.dir(err);
+
+		var clc = db.collection('order');
+
+		var query = {orderId: parseInt(req.query.orderId || 0)};
+		
+		clc.findOne(query, function(err,doc){
+			res.send(doc);
+
+			db.close();
+		});
+	});
 });
 
 /*
@@ -42,7 +54,19 @@ Result:
 	The Json order list of selected customer
 */
 router.get('/list', function(req, res, next) {
-	res.send({});
+	mgClient.connect(new mdl().cfg.dbUrl, function(err,db){
+		if(err) return console.dir(err);
+
+		var clc = db.collection('order');
+
+		var query = {customerId: parseInt(req.query.customerId || 0)};
+		
+		clc.find(query).toArray(err, function(err,docs){
+			res.send(docs);
+
+			db.close();
+		});
+	});
 });
 
 module.exports = router;

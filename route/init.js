@@ -14,17 +14,4 @@ router.get('/list', function(req, res, next) {
 	res.send({});
 });
 
-/*
-Method:
-	GET /book?bookId=1
-	Get the book detail by bookId, 
-Parameters:
-	# artisanId
-Result:
-	the Json item of Jiang book detail.
-*/
-router.get('/', function(req, res, next) {
-	res.send({});
-});
-
 module.exports = router;

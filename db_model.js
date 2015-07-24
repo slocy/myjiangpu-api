@@ -97,7 +97,7 @@ var db_model = function(){
 
 	this.cfg = {
 		isApiRunning : true,
-		dbUrl : 'mongodb://localhost:27017/rockdb',
+		dbUrl : 'mongodb://localhost:27017/jbookdb',
 	};
 };
 

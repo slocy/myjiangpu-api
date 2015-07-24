@@ -13,7 +13,22 @@ Result:
 	The Json list for leasson of selected artisan.
 */
 router.get('/list', function(req, res, next) {
-	res.send({});
+	mgClient.connect(new mdl().cfg.dbUrl, function(err,db){
+		if(err) return console.dir(err);
+
+		var clc = db.collection('lesson');
+
+		var query = {
+			artisanId: parseInt(req.query.artisanId || 0),
+			status: req.query.status,
+		};
+		
+		clc.find(query).toArray(err, function(err,docs){
+			res.send(docs);
+
+			db.close();
+		});
+	});
 });
 
 /*
@@ -26,7 +41,19 @@ Result:
 	The Json detail of selected artisan.
 */
 router.get('/', function(req, res, next) {
-	res.send({});
+	mgClient.connect(new mdl().cfg.dbUrl, function(err,db){
+		if(err) return console.dir(err);
+
+		var clc = db.collection('lesson');
+
+		var query = {lessonId: parseInt(req.query.lessonId || 0)};
+		
+		clc.findOne(query, function(err,doc){
+			res.send(doc);
+
+			db.close();
+		});
+	});
 });
 
 /*

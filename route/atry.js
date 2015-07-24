@@ -9,9 +9,9 @@ router.get('/', function(req, res, next) {
 	mgClient.connect(new mdl().cfg.dbUrl, function(err,db){
 		if(err) return console.dir(err);
 
-		var query = {logId: parseInt(req.query.uId)};
-
 		var clc = db.collection('appLog');
+
+		var query = {logId: parseInt(req.query.uId)};
 		
 		clc.findOne(query, function(err,docs){
 			res.send(docs);

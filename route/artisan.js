@@ -11,7 +11,19 @@ Result:
 	the Json item of artisan information.
 */
 router.get('/', function(req, res, next) {
-	res.send({});
+	mgClient.connect(new mdl().cfg.dbUrl, function(err,db){
+		if(err) return console.dir(err);
+
+		var clc = db.collection('artisan');
+
+		var query = {artisanId: parseInt(req.query.artisanId || 0)};
+		
+		clc.findOne(query, function(err,doc){
+			res.send(doc);
+
+			db.close();
+		});
+	});
 });
 
 
