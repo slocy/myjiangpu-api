@@ -97,6 +97,7 @@ var db_model = function(){
 
 	this.configurations = {
 		isApiRunning : true,
+		mongodbUrl : 'mongodb://localhost:27017/rockdb',
 	};
 };
 
