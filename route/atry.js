@@ -6,14 +6,16 @@ var mdl = require('../db_model');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
+	var uId = req.query.uId || 0;
+
+	if(uId == 0) return;
+
 	mgClient.connect('mongodb://localhost:27017/rockdb', function(err,db){
 		if(err) return console.dir(err);
 
 		var clc = db.collection('appLog');
 		
-		clc.find({}).toArray(function(err,docs){
-			console.log(docs);
-			
+		clc.find({logId:uId}).toArray(function(err,docs){
 			res.send(docs);
 
 			db.close();
