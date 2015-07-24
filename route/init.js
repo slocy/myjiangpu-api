@@ -35,10 +35,13 @@ router.get('/db', function(req, res, next) {
 	mgClient.connect(new mdl().cfg.dbUrl, function(err,db){
 		if(err) return console.dir(err);
 
+		console.log('1');
 		var clc = db.collection('book');
 
+		console.log('2');
 		var query = mdl.book;
 		
+		console.log('3');
 		clc.insert(query, function(err,result){
 			res.send(result);
 			db.close();
