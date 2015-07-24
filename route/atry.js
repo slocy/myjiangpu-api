@@ -12,12 +12,12 @@ router.get('/', function(req, res, next) {
 		var clc = db.collection('appLog');
 		
 		clc.find({}).toArray(function(err,docs){
-			console.log(res);
+			console.log(docs);
+			
+			res.send(docs);
+
+			db.close();
 		});
-
-		return res.send(rt);
-
-		db.close();
 	});
 });
 
