@@ -1,98 +1,100 @@
 // This file shows all mongodb data schemas which can be used in nodejs application.
 var db_model = function(){
 	this.appLog = {
-		logId : '',
-		title : '',
-		message : '',
-		level : '',
+		logId : String,
+		title : String,
+		message : String,
+		level : 'log',
 		datetime : new Date(),
-		source : '',
-		innerMessage : '',
+		source : String,
+		innerMessage : String,
 	};
 
 	/* ********************************************************************************** */
 	this.customer = {
-		wechatId : '', // Get it from Wechat API.
-		name : '',
-		nickname : '',
-		gender : 'Male',
-		email : '',
-		cellphone : '',
+		wechatId : String, // Get it from Wechat API.
+		name : String,
+		nickname : String,
+		gender : Boolean,
+		email : String,
+		cellphone : String,
+		token: String,
 	};
 
 	this.artisan = {
-		artisanId : '',
-		name : '',
-		wechatId : '',
-		cellphone : '',
-		description : '',
-		city : '',
-		geo : '',
+		artisanId : String,
+		name : String,
+		wechatId : String,
+		cellphone : String,
+		description : String,
+		city : String,
+		address : String,
+		createDate: Date,
 	};
 
 	this.book = {
-		bookId : '',
-		title : '',
-		subTitle : '',
-		description : '',
-		primaryImage : '',
-		primaryVideo : '',
-		images : [],
+		bookId : String,
+		title : String,
+		subTitle : String,
+		description : String,
+		primaryImage : String,
+		primaryVideo : String,
+		images : Array,
 	};
 
 	this.bookSteps = {
-		stepId : '',
-		name : '',
-		content : '',
-		images : [],
-		videos : [],
+		stepId : String,
+		name : String,
+		content : String,
+		images : Array,
+		videos : Array,
 	};
 
 	this.bookStuffs = {
-		stuffId : '',
-		title : '',
-		description : '',
-		price : 0,
-		images : [],
+		stuffId : String,
+		title : String,
+		description : String,
+		price : Number,
+		images : Array,
 	};
 
 	this.utility = {
-		utilityId : '',
-		name : '',
-		description : '',
-		images : [],
-		price : 0,
+		utilityId : String,
+		name : String,
+		description : String,
+		images : Array,
+		price : Number,
 	};
 
 	this.lesson = {
-		lessonId : '',
-		title : '',
-		customerIds : [],
-		artisanId : '',
-		bookId : '',
-		datetime : '',
-		place : '',
-		price : 0,
+		lessonId : String,
+		title : String,
+		customerIds : Array,
+		artisanId : String,
+		bookId : String,
+		datetime : String,
+		place : String,
+		price : Number,
 	};
 
 	this.order = {
-		orderId : '',
-		type : '', // can be utility, lesson, stuff...
-		quantity : 1,
-		summary : 0,
-		paymentId : '',
-		customerId : '',
-		lessonId : '',
-		utilityId : '',
-		stuffId : '',
+		orderId : String,
+		type : String, // can be utility, lesson, stuff...
+		quantity : Number,
+		summary : Number,
+		paymentId : String,
+		customerId : String,
+		lessonId : String,
+		utilityId : String,
+		stuffId : String,
 	};
 
 	this.payment = {
-		paymentId : '',
-		summary : 0,
-		isPaid : 0,
-		transaction : '',
-		method : '', // can be wechat, unionpay, credit_card
+		paymentId : String,
+		summary : Number,
+		isPaid : Boolean,
+		transaction : String,
+		method : String, // can be wechat, unionpay, credit_card
 	};
 
 	this.cfg = {
