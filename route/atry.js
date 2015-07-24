@@ -11,10 +11,8 @@ router.get('/', function(req, res, next) {
 
 		var clc = db.collection('appLog');
 		
-		var rt = 'no';
 		clc.find({}).toArray(function(err,docs){
-			rt = docs;
-			console.log(rt);
+			console.log(res);
 		});
 
 		return res.send(rt);
