@@ -9,20 +9,6 @@ var mdl = new db_model();
 var func = new funct();
 
 mdl.book = {
-<<<<<<< HEAD
-		bookId : func.guid(),
-		title : '一朵胸针',
-		subTitle : '来自茹萍的胸针设计',
-		description : 'asdfasdf,asdf,asdf  asdfasd,f asdfasdf,,asdf  asdf,as,df,, asdfasdf',
-		primaryImage : 'http://mp.weixin.qq.com/image/first.jpg',
-		primaryVideo : 'http://mp.weixin.qq.com/image/first.mp4',
-		images : [
-			'http://mp.weixin.qq.com/image/image-1.jpg',
-			'http://mp.weixin.qq.com/image/image-2.jpg',
-			'http://mp.weixin.qq.com/image/image-3.jpg',
-		],
-	};
-=======
 	bookId : func.guid(),
 	title : '一朵胸针',
 	subTitle : '来自茹萍的胸针设计',
@@ -47,8 +33,6 @@ mdl.artisan = {
 	address : '厦门市思明区旧物仓',
 	createDate: new Date(2015, 7, 27),
 };
-
->>>>>>> b5c7240ac55dffd8a857a6cbc8b8babe184a32ab
 
 /*
 Method:

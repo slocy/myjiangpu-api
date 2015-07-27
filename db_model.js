@@ -71,13 +71,22 @@ var db_model = function(){
 	this.lesson = {
 		lessonId : String,
 		title : String,
-		customerIds : Array,
+		comment: String,
 		artisanId : String,
 		bookId : String,
 		datetime : String,
 		place : String,
 		price : Number,
 	};
+
+	this.lessonCustomers = {
+		lessonCustomerId = String,
+		lessonId : String,
+		customerId : String,
+		quantity : Number,
+		summary : Number,
+		comment : String,
+	}
 
 	this.order = {
 		orderId : String,
