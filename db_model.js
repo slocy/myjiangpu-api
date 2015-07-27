@@ -24,6 +24,7 @@ var db_model = function(){
 	this.artisan = {
 		artisanId : String,
 		name : String,
+		fullName: String,
 		wechatId : String,
 		cellphone : String,
 		description : String,
