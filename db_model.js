@@ -86,7 +86,7 @@ var db_model = function(){
 		quantity : Number,
 		summary : Number,
 		comment : String,
-	}
+	};
 
 	this.order = {
 		orderId : String,
