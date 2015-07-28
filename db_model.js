@@ -99,7 +99,7 @@ var db_model = function(){
 		utilityId : String,
 		stuffId : String,
 	};
-
+106.187.47.178
 	this.payment = {
 		paymentId : String,
 		summary : Number,

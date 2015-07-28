@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="095c66ee-4934-4464-8fc4-8c988f17563e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_model.js" afterPath="$PROJECT_DIR$/db_model.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="095c66ee-4934-4464-8fc4-8c988f17563e" name="Default" comment="" />
     <ignored path="myjiangpuapi.git.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +34,8 @@
       <file leaf-file-name="db_model.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db_model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65088755">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6745562">
+              <caret line="112" column="52" selection-start-line="112" selection-start-column="52" selection-end-line="112" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -258,8 +255,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db_model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65088755">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6745562">
+          <caret line="112" column="52" selection-start-line="112" selection-start-column="52" selection-end-line="112" selection-end-column="52" />
           <folding />
         </state>
       </provider>
