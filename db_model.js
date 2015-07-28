@@ -80,7 +80,7 @@ var db_model = function(){
 	};
 
 	this.lessonCustomers = {
-		lessonCustomerId = String,
+		lessonCustomerId : String,
 		lessonId : String,
 		customerId : String,
 		quantity : Number,

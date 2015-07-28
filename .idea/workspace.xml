@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="095c66ee-4934-4464-8fc4-8c988f17563e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db_model.js" afterPath="$PROJECT_DIR$/db_model.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="myjiangpuapi.git.iws" />
@@ -36,8 +37,8 @@
       <file leaf-file-name="db_model.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db_model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.295858">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.65088755">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -257,8 +258,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db_model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.295858">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.65088755">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
