@@ -10,26 +10,31 @@ var func = new funct();
 
 mdl.book = {
 	bookId : func.guid(),
-	title : '一朵胸针',
+	title : '蔷薇胸花',
 	subTitle : '来自茹萍的胸针设计',
-	description : 'asdfasdf,asdf,asdf  asdfasd,f asdfasdf,,asdf  asdf,as,df,, asdfasdf',
-	primaryImage : 'http://mp.weixin.qq.com/image/first.jpg',
-	primaryVideo : 'http://mp.weixin.qq.com/image/first.mp4',
+	description : '自然风干的蔷薇和银叶菊，嵌有星星点点的冬菇草，跟着匠谱，你手中的植物就会有新的可能。如果你在夏天喜欢穿浅色裙子，那你需要这样一枚胸针。',
+	primaryImage : 'http://wx-ast.slocy.cn/image/book/adore-xiongzhen/primary.jpg',
+	primaryVideo : '',
 	images : [
-		'http://mp.weixin.qq.com/image/image-1.jpg',
-		'http://mp.weixin.qq.com/image/image-2.jpg',
-		'http://mp.weixin.qq.com/image/image-3.jpg',
+		'http://wx-ast.slocy.cn/image/book/adore-xiongzhen/1.jpg',
+		'http://wx-ast.slocy.cn/image/book/adore-xiongzhen/2.jpg',
+		'http://wx-ast.slocy.cn/image/book/adore-xiongzhen/3.jpg',
+		'http://wx-ast.slocy.cn/image/book/adore-xiongzhen/4.jpg',
+		'http://wx-ast.slocy.cn/image/book/adore-xiongzhen/5.jpg',
+		'http://wx-ast.slocy.cn/image/book/adore-xiongzhen/6.jpg',
+		'http://wx-ast.slocy.cn/image/book/adore-xiongzhen/7.jpg',
+		'http://wx-ast.slocy.cn/image/book/adore-xiongzhen/8.jpg',
 	],
 };
 
 mdl.artisan = {
 	artisanId : func.guid(),
 	name : '茹茹萍',
-	fullName: '茹萍',
+	fullName: '陈茹萍',
 	wechatId : '',
 	cellphone : 'N/A',
-	description : '',
-	city : 'Xiamen',
+	description : '毕业于中央美术学院，捣腾在植物与手工之间，坚持做喜欢的事情，努力让喜欢的事情有价值。',
+	city : '厦门',
 	address : '厦门市思明区旧物仓',
 	createDate: new Date(2015, 7, 27),
 };

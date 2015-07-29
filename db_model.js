@@ -5,9 +5,10 @@ var db_model = function(){
 		title : String,
 		message : String,
 		level : 'log',
-		datetime : new Date(),
 		source : String,
 		innerMessage : String,
+		createDate: Date,
+		updateDate: Date,
 	};
 
 	/* ********************************************************************************** */
@@ -19,6 +20,8 @@ var db_model = function(){
 		email : String,
 		cellphone : String,
 		token: String,
+		createDate: Date,
+		updateDate: Date,
 	};
 
 	this.artisan = {
@@ -31,6 +34,7 @@ var db_model = function(){
 		city : String,
 		address : String,
 		createDate: Date,
+		updateDate: Date,
 	};
 
 	this.book = {
@@ -42,14 +46,19 @@ var db_model = function(){
 		primaryImage : String,
 		primaryVideo : String,
 		images : Array,
+		createDate: Date,
+		updateDate: Date,
 	};
 
 	this.bookSteps = {
 		stepId : String,
 		name : String,
+		bookId : String,
 		content : String,
 		images : Array,
 		videos : Array,
+		createDate: Date,
+		updateDate: Date,
 	};
 
 	this.bookStuffs = {
@@ -58,6 +67,8 @@ var db_model = function(){
 		description : String,
 		price : Number,
 		images : Array,
+		createDate: Date,
+		updateDate: Date,
 	};
 
 	this.utility = {
@@ -66,6 +77,8 @@ var db_model = function(){
 		description : String,
 		images : Array,
 		price : Number,
+		createDate: Date,
+		updateDate: Date,
 	};
 
 	this.lesson = {
@@ -77,6 +90,8 @@ var db_model = function(){
 		datetime : String,
 		place : String,
 		price : Number,
+		createDate: Date,
+		updateDate: Date,
 	};
 
 	this.lessonCustomers = {
@@ -86,6 +101,8 @@ var db_model = function(){
 		quantity : Number,
 		summary : Number,
 		comment : String,
+		createDate: Date,
+		updateDate: Date,
 	};
 
 	this.order = {
@@ -98,6 +115,8 @@ var db_model = function(){
 		lessonId : String,
 		utilityId : String,
 		stuffId : String,
+		createDate: Date,
+		updateDate: Date,
 	};
 
 	this.payment = {
@@ -106,6 +125,8 @@ var db_model = function(){
 		isPaid : Boolean,
 		transaction : String,
 		method : String, // can be wechat, unionpay, credit_card
+		createDate: Date,
+		updateDate: Date,
 	};
 
 	this.cfg = {
