@@ -41,6 +41,7 @@ var db_model = function(){
 		bookId : String,
 		title : String,
 		subTitle : String,
+		stuff : String,
 		description : String,
 		artisanId : String,
 		primaryImage : String,
