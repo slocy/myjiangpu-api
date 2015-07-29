@@ -11,7 +11,15 @@ Result:
 	the Json array list with summary of all Jiang books.
 */
 router.get('/list', function(req, res, next) {
-	res.send({});
+	mgClient.connect(new mdl().cfg.dbUrl, function(err,db){
+		if(err) return console.dir(err);
+
+		db.collection('book').find().toArray(function(err,docs){
+			res.send(docs);
+
+			db.close();
+		});
+	});
 });
 
 /*
